@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(57, 57, 133);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover 
+{
+    color: white;
+    text-decoration: none; 
+    cursor: pointer;
+}
