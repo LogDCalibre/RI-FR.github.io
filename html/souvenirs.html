@@ -19,7 +19,42 @@
         </menu>
     </header>    
 
+    <img src="../img/anivri.jpg" alt="">
+    <div class="srifr">
+        <div><img src="../img/img1.jpg" alt="" class="img1"></div>
+        <div><img src="../img/img2.jpg" alt="" class="img2"></div>
+        <div><img src="../img/img3.jpg" alt="" class="img3"></div>
+        <div><img src="../img/img4.jpg" alt="" class="img4"></div>
+    </div>
+
     <style>
+        .img1{
+            width: 60vh;
+            height: 50vh;
+        }
+        .img2{
+            width: 60vh;
+            height: 60vh;
+        }
+        .img3{
+            width: 60vh;
+            height: 65vh;
+        }
+        .img4{
+            width: 60vh;
+            height: 60vh;
+        }
+        .srifr{
+            display: grid;
+            grid-template-rows: repeat(2, 1);
+        }
+        img{
+            width: 690px;
+            height: 590px;
+            margin-top: 0.5vh;
+            margin-left: 60vh;
+            border-radius: 50px;
+        }
         menu{
             display: flex;
             justify-content: space-around;
